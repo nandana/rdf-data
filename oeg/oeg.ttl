@@ -14,37 +14,38 @@
 @prefix cc: <http://creativecommons.org/ns#"> . 
 
 oeg:this a org:Organization, schema:EducationalOrganization, foaf:Organization ;
-	skos:prefLabel "Ontology Engineering Group" ;
-	org:subOrganizationOf dbpedia:Technical_University_of_Madrid ;
-    org:purpose dbpedia:Research ;
-    foaf:homepage <http://www.oeg-upm.net/> ;
-    org:hasSite oeg:office .
+  skos:prefLabel "Ontology Engineering Group" ;
+  org:subOrganizationOf dbpedia:Technical_University_of_Madrid ;
+  org:purpose dbpedia:Research ;
+  foaf:homepage <http://www.oeg-upm.net/> ;
+  org:hasSite oeg:office .
 
 oeg:office a org:Site;
-      org:siteAddress [
-          a v:VCard ;
-          v:fn "Ontology Engineering Group" ;
-		  v:org
-			 [   v:organisation-name "Example.Com LLC" ;
-			     v:organisation-unit "Corporate Division"
-			 ] ;
+  org:siteAddress [
+    a v:VCard ;
+      v:fn "Ontology Engineering Group" ;
+        v:org
+          [  
+             v:organisation-name "Example.Com LLC" ;
+             v:organisation-unit "Corporate Division"
+          ] ;
           v:adr
-		     [ a v:Work ;
-                 v:street-address "Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n" ;
-		         v:locality "Boadilla del Monte" ;
-		         v:postal-code "28660" ;
-                 v:country-name "Spain"   
-		     ] ;
-    	  v:tel
-         	[ a v:Voice, v:Work  ;
-             	rdf:value "+34 913367417"
+            [ a v:Work ;
+              v:street-address "Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n" ;
+              v:locality "Boadilla del Monte" ;
+              v:postal-code "28660" ;
+              v:country-name "Spain"   
+            ] ;
+          v:tel
+            [ a v:Voice, v:Work  ;
+              rdf:value "+34 913367417"
          	] ; 
           v:tel
-         	 [ a v:Fax, v:Work ;
-             	rdf:value "+34 913524819"
-         	 ] ; 
+            [ a v:Fax, v:Work ;
+              rdf:value "+34 913524819"
+            ] ; 
           v:email <asun@fi.upm.es> 
-	  ] .
+          ] .
 
 oeg:asun a org:Membership;
      org:member <http://semanticweb.org/id/Asuncion_Gomez-Perez> ;
