@@ -1,0 +1,36 @@
+<rdf:RDF xmlns="http://xmlns.com/foaf/0.1/"
+    xmlns:cert="http://www.w3.org/ns/auth/cert#"
+    xmlns:contact="http://www.w3.org/2000/10/swap/pim/contact#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:iana="http://www.iana.org/assignments/relation/"
+    xmlns:pingback="http://purl.org/net/pingback/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <PersonalProfileDocument rdf:about="http://id.nandana.org/card#me">
+        <maker rdf:resource="http://id.nandana.org/card#me"/>
+        <primaryTopic rdf:resource="http://id.nandana.org/card#me"/>
+        <title>Nandana Mihindukulasooriya's FOAF file</title>
+    </PersonalProfileDocument>
+
+    <Person rdf:about="http://id.nandana.org/card#me">
+    	<title>Mr</title>
+    	<name>Nandana Mihindukulasooriya</name>
+        <foaf:nick>nandana</foaf:nick>
+        <foaf:nick>nandanamihindu</foaf:nick>        
+        <mbox rdf:resource="mailto:nandana@apache.org"/>
+        <mbox rdf:resource="mailto:nandana.cse@gmail.com"/>
+        <mbox rdf:resource="mailto:nmihindu@fi.upm.es"/>
+        <contact:home rdf:parseType="Resource">
+            <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#ContactLocation"/>
+            <contact:address rdf:parseType="Resource">
+                <contact:city>Madrid</contact:city>
+                <contact:country>Spain</contact:country>
+            </contact:address>
+        </contact:home>
+        <foaf:based_near>Madrid</foaf:based_near>
+        <gender>male</gender>
+    </Person>
+
+</rdf:RDF>

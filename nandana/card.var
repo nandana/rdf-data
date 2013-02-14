@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://id.nandana.org/card> a PersonalProfileDocument;
+    foaf:maker <http://id.nandana.org/card#me> ;
+    foaf:primaryTopic <http://id.nandana.org/card#me> ;
+    foaf:title "Nandana Mihindukulasooriya's FOAF file"@en .
+
+<http://id.nandana.org/card#me> a foaf:Person;
+    foaf:name "Nandana Mihindukulasooriya" ;
+    foaf:nick "nandana" ;
+    foaf:homepage <http://www.nandana.org> ;
+    foaf:openid <https://nandana.myopenid.com/> ;
+    foaf:holdsAccount <https://twitter.com/nandanamihindu> ;
+    foaf:mbox <mailto:nandana@apache.org> ;
+    foaf:mbox <mailto:nandana.cse@gmail.com> ;
+    foaf:mbox <mailto:nmihindu@fi.upm.es> ;
+    foaf:based_near <http://dbpedia.org/resource/Madrid> .
+    
+<http://www.oeg-upm.net/#this> a foaf:Group;
+    foaf:member <http://id.nandana.org/card#me>;
+    foaf:name "Ontology Engineering Group (OEG) "@en .
+
+

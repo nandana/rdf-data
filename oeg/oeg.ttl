@@ -1,0 +1,95 @@
+# © 2013, OEG. Licensed under the Creative Commons Attribution 3.0 license, 
+# http://creativecommons.org/licenses/by/3.0/
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix oeg: <http://www.oeg-upm.net/#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#"> . 
+
+oeg:this a org:Organization, schema:EducationalOrganization, foaf:Organization ;
+	skos:prefLabel "Ontology Engineering Group" ;
+	org:subOrganizationOf dbpedia:Technical_University_of_Madrid ;
+    org:purpose dbpedia:Research ;
+    foaf:homepage <http://www.oeg-upm.net/> ;
+    org:hasSite oeg:office .
+
+oeg:office a org:Site;
+      org:siteAddress [
+          a v:VCard ;
+          v:fn "Ontology Engineering Group" ;
+		  v:org
+			 [   v:organisation-name "Example.Com LLC" ;
+			     v:organisation-unit "Corporate Division"
+			 ] ;
+          v:adr
+		     [ a v:Work ;
+                 v:street-address "Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n" ;
+		         v:locality "Boadilla del Monte" ;
+		         v:postal-code "28660" ;
+                 v:country-name "Spain"   
+		     ] ;
+    	  v:tel
+         	[ a v:Voice, v:Work  ;
+             	rdf:value "+34 913367417"
+         	] ; 
+          v:tel
+         	 [ a v:Fax, v:Work ;
+             	rdf:value "+34 913524819"
+         	 ] ; 
+          v:email <asun@fi.upm.es> 
+	  ] .
+
+oeg:asun a org:Membership;
+     org:member <http://semanticweb.org/id/Asuncion_Gomez-Perez> ;
+     org:organization oeg:this;
+     org:role oeg:director;
+     org:role oeg:fullProfessor .
+
+oeg:ocorcho a org:Membership;
+     org:member <http://semanticweb.org/id/Oscar_Corcho>;
+     org:organization oeg:this;
+     org:role oeg:associateProfessor .
+
+oeg:rgarcia a org:Membership;
+     org:member <http://delicias.dia.fi.upm.es/~rgarcia/#me>;
+     org:organization oeg:this;
+     org:role oeg:postDoc .
+	
+oeg:dgarijo a org:Membership;
+      org:member <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
+      org:organization oeg:this;
+      org:role oeg:phdStudent .
+
+oeg:director a org:Role;
+    skos:prefLabel "Director";
+    org:roleProperty oeg:directorOf .
+
+oeg:directorOf a owl:ObjectProperty, rdf:Property;
+    skos:prefLabel "Director";
+    rdfs:subPropertyOf org:memberOf. 
+
+oeg:fullProfessor a org:Role;
+    skos:prefLabel "Full Professor" .
+
+oeg:associateProfessor a org:Role;
+	skos:prefLabel "Associate Professor" .
+
+oeg:phdStudent a org:Role;
+    skos:prefLabel "PhD student" .
+
+oeg:postDoc a org:Role;
+    skos:prefLabel "Post-Doc" .
+
+oeg:softwareEngineer a org:Role;
+    skos:prefLabel "Software Engineer" .
+
+
+
+
