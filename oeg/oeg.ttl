@@ -26,8 +26,8 @@ oeg:office a org:Site;
       v:fn "Ontology Engineering Group" ;
         v:org
           [  
-             v:organisation-name "Example.Com LLC" ;
-             v:organisation-unit "Corporate Division"
+             v:organisation-name "Ontology Engineering Group" ;
+             v:organisation-unit "Department of Artificial Intelligence"
           ] ;
           v:adr
             [ a v:Work ;
