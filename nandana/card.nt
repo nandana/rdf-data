@@ -1,0 +1,29 @@
+<http://id.nandana.org/card> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+<http://id.nandana.org/card> <http://xmlns.com/foaf/0.1/maker> <http://id.nandana.org/card#me> .
+<http://id.nandana.org/card> <http://xmlns.com/foaf/0.1/primaryTopic> <http://id.nandana.org/card#me> .
+<http://id.nandana.org/card> <http://xmlns.com/foaf/0.1/title> "Nandana Mihindukulasooriya's FOAF file"@en .
+<http://id.nandana.org/card#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/name> "Nandana Mihindukulasooriya" .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/givenname> "Nandana" .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/family_name> "Mihindukulasooriya" .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/title> "Mr" .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/nick> "nandana" .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/nick> "nandanamihindu" .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/homepage> <http://www.nandana.org> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/weblog> <http://www.nandana.org> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://www.oeg-upm.net/> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <http://www.centeropenmiddleware.com/> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.fi.upm.es/?id=inicio&idioma=english> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.bth.se/eng> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <http://www.mrt.ac.lk/> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/currentProject> <http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/activeprojects/291-almistack> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/img> <https://en.gravatar.com/nandana83#photo-0> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/openid> <https://nandana.myopenid.com/> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/holdsAccount> <https://twitter.com/nandanamihindu> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:nandana@apache.org> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:nandana.cse@gmail.com> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:nmihindu@fi.upm.es> .
+<http://id.nandana.org/card#me> <http://xmlns.com/foaf/0.1/based_near> <http://dbpedia.org/resource/Madrid> .
+<http://www.oeg-upm.net/#this> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Group> .
+<http://www.oeg-upm.net/#this> <http://xmlns.com/foaf/0.1/member> <http://id.nandana.org/card#me> .
+<http://www.oeg-upm.net/#this> <http://xmlns.com/foaf/0.1/name> "Ontology Engineering Group (OEG) "@en .

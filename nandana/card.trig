@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+{
+	<http://id.nandana.org/card> a foaf:PersonalProfileDocument ;
+		foaf:maker <http://id.nandana.org/card#me> ;
+		foaf:primaryTopic <http://id.nandana.org/card#me> ;
+		foaf:title "Nandana Mihindukulasooriya's FOAF file"@en .
+	
+	<http://id.nandana.org/card#me> a foaf:Person ;
+		foaf:name "Nandana Mihindukulasooriya" ;
+		foaf:givenname "Nandana" ;
+		foaf:family_name "Mihindukulasooriya" ;
+		foaf:title "Mr" ;
+		foaf:nick "nandana" , "nandanamihindu" ;
+		foaf:homepage <http://www.nandana.org> ;
+		foaf:weblog <http://www.nandana.org> ;
+		foaf:workplaceHomepage <http://www.oeg-upm.net/> , <http://www.centeropenmiddleware.com/> ;
+		foaf:schoolHomepage <http://www.fi.upm.es/?id=inicio&idioma=english> , <http://www.bth.se/eng> , <http://www.mrt.ac.lk/> ;
+		foaf:currentProject <http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/activeprojects/291-almistack> ;
+		foaf:img <https://en.gravatar.com/nandana83#photo-0> ;
+		foaf:openid <https://nandana.myopenid.com/> ;
+		foaf:holdsAccount <https://twitter.com/nandanamihindu> ;
+		foaf:mbox <mailto:nandana@apache.org> , <mailto:nandana.cse@gmail.com> , <mailto:nmihindu@fi.upm.es> ;
+		foaf:based_near <http://dbpedia.org/resource/Madrid> .
+	
+	<http://www.oeg-upm.net/#this> a foaf:Group ;
+		foaf:member <http://id.nandana.org/card#me> ;
+		foaf:name "Ontology Engineering Group (OEG) "@en .
+}

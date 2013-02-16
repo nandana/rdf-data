@@ -1,36 +1,45 @@
-<rdf:RDF xmlns="http://xmlns.com/foaf/0.1/"
-    xmlns:cert="http://www.w3.org/ns/auth/cert#"
-    xmlns:contact="http://www.w3.org/2000/10/swap/pim/contact#"
-    xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-    xmlns:iana="http://www.iana.org/assignments/relation/"
-    xmlns:pingback="http://purl.org/net/pingback/"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:dc="http://purl.org/dc/terms/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
-    <PersonalProfileDocument rdf:about="http://id.nandana.org/card#me">
-        <maker rdf:resource="http://id.nandana.org/card#me"/>
-        <primaryTopic rdf:resource="http://id.nandana.org/card#me"/>
-        <title>Nandana Mihindukulasooriya's FOAF file</title>
-    </PersonalProfileDocument>
+<rdf:Description rdf:about="http://id.nandana.org/card">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+	<foaf:maker rdf:resource="http://id.nandana.org/card#me"/>
+	<foaf:primaryTopic rdf:resource="http://id.nandana.org/card#me"/>
+	<foaf:title xml:lang="en">Nandana Mihindukulasooriya's FOAF file</foaf:title>
+</rdf:Description>
 
-    <Person rdf:about="http://id.nandana.org/card#me">
-    	<title>Mr</title>
-    	<name>Nandana Mihindukulasooriya</name>
-        <foaf:nick>nandana</foaf:nick>
-        <foaf:nick>nandanamihindu</foaf:nick>        
-        <mbox rdf:resource="mailto:nandana@apache.org"/>
-        <mbox rdf:resource="mailto:nandana.cse@gmail.com"/>
-        <mbox rdf:resource="mailto:nmihindu@fi.upm.es"/>
-        <contact:home rdf:parseType="Resource">
-            <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#ContactLocation"/>
-            <contact:address rdf:parseType="Resource">
-                <contact:city>Madrid</contact:city>
-                <contact:country>Spain</contact:country>
-            </contact:address>
-        </contact:home>
-        <foaf:based_near>Madrid</foaf:based_near>
-        <gender>male</gender>
-    </Person>
+<rdf:Description rdf:about="http://id.nandana.org/card#me">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	<foaf:name>Nandana Mihindukulasooriya</foaf:name>
+	<foaf:givenname>Nandana</foaf:givenname>
+	<foaf:family_name>Mihindukulasooriya</foaf:family_name>
+	<foaf:title>Mr</foaf:title>
+	<foaf:nick>nandana</foaf:nick>
+	<foaf:nick>nandanamihindu</foaf:nick>
+	<foaf:homepage rdf:resource="http://www.nandana.org"/>
+	<foaf:weblog rdf:resource="http://www.nandana.org"/>
+	<foaf:workplaceHomepage rdf:resource="http://www.oeg-upm.net/"/>
+	<foaf:workplaceHomepage rdf:resource="http://www.centeropenmiddleware.com/"/>
+	<foaf:schoolHomepage rdf:resource="http://www.fi.upm.es/?id=inicio&amp;idioma=english"/>
+	<foaf:schoolHomepage rdf:resource="http://www.bth.se/eng"/>
+	<foaf:schoolHomepage rdf:resource="http://www.mrt.ac.lk/"/>
+	<foaf:currentProject rdf:resource="http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/activeprojects/291-almistack"/>
+	<foaf:img rdf:resource="https://en.gravatar.com/nandana83#photo-0"/>
+	<foaf:openid rdf:resource="https://nandana.myopenid.com/"/>
+	<foaf:holdsAccount rdf:resource="https://twitter.com/nandanamihindu"/>
+	<foaf:mbox rdf:resource="mailto:nandana@apache.org"/>
+	<foaf:mbox rdf:resource="mailto:nandana.cse@gmail.com"/>
+	<foaf:mbox rdf:resource="mailto:nmihindu@fi.upm.es"/>
+	<foaf:based_near rdf:resource="http://dbpedia.org/resource/Madrid"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#this">
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+	<foaf:member rdf:resource="http://id.nandana.org/card#me"/>
+	<foaf:name xml:lang="en">Ontology Engineering Group (OEG) </foaf:name>
+</rdf:Description>
 
 </rdf:RDF>
