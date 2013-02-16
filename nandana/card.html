@@ -1,8 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="en"
+	prefix="dc: http://purl.org/dc/terms/ schema: http://schema.org/ prov: http://www.w3.org/ns/prov# foaf: http://xmlns.com/foaf/0.1/ rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# ">
 <head>
-<title>Nandana Mihindukulasooriya's FOAF file</title>
+<meta charset="UTF-8"/>
+<title about="http://id.nandana.org/card/" property="dc:title">Nandana Mihindukulasooriya's FOAF file</title>
 </head>
 <body>
-Test for content negociation
+	<p resource="http://id.nandana.org/card/#me" typeof="foaf:Person"> 
+	My name is <span property="foaf:name">Nandana Mihindukulasooriya</span>. I work for <span
+			resource="http://www.oeg-upm.net/#this" typeof="foaf:Group"> <b
+			property="foaf:name"><a href="http://www.oeg-upm.net/">Ontology Engineering Group (OEG) </a></b> <input type="hidden"
+			property="foaf:member" href="http://id.nandana.org/card/#me" />
+		</span>.
+
+	</p>
+	<p>
+		<input type="hidden" about="http://id.nandana.org/card/" property="foaf:maker" src="http://id.nandana.org/card#me"/>
+		<input type="hidden" about="http://id.nandana.org/card/" property="foaf:maker" src="http://id.nandana.org/card#me"/>
+		<input type="hidden" about="http://id.nandana.org/card/" property="rdf:type" resource="foaf:PersonalProfileDocument"/>
+	</p>
 </body>
 </html>
