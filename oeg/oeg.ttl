@@ -18,20 +18,105 @@ oeg:this a org:Organization, schema:EducationalOrganization, foaf:Organization ;
   org:subOrganizationOf dbpedia:Technical_University_of_Madrid ;
   org:purpose dbpedia:Research ;
   foaf:homepage <http://www.oeg-upm.net/> ;
-  org:hasSite oeg:office .
+  org:hasPrimarySite oeg:Office3204 ;
+  org:hasSite oeg:Office3205 ;
+  org:hasSite oeg:Office5001 ;
+  org:hasSite oeg:OfficeOfAsun ;
+  org:hasSite oeg:OfficeOfOscar .
 
-oeg:office a org:Site;
+oeg:Office3204 a org:Site;
   org:siteAddress [
     a v:VCard ;
       v:fn "Ontology Engineering Group" ;
         v:org
           [  
              v:organisation-name "Ontology Engineering Group" ;
-             v:organisation-unit "Department of Artificial Intelligence"
+             v:organisation-unit "Office 3204"
           ] ;
           v:adr
             [ a v:Work ;
-              v:street-address "Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n" ;
+              v:street-address "L3204, Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n" ;
+              v:locality "Boadilla del Monte" ;
+              v:postal-code "28660" ;
+              v:country-name "Spain"   
+            ] ;
+          v:tel
+            [ a v:Voice, v:Work  ;
+              rdf:value "+34 913363670"
+         	] ; 
+          v:tel
+            [ a v:Fax, v:Work ;
+              rdf:value "+34 913524819"
+            ] ; 
+          v:email <mailto:katy@delicias.dia.fi.upm.es> 
+          ] .
+          
+oeg:Office3205 a org:Site;
+  org:siteAddress [
+    a v:VCard ;
+      v:fn "Ontology Engineering Group" ;
+        v:org
+          [  
+             v:organisation-name "Ontology Engineering Group" ;
+             v:organisation-unit "Office 3205"
+          ] ;
+          v:adr
+            [ a v:Work ;
+              v:street-address "L3205, Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n" ;
+              v:locality "Boadilla del Monte" ;
+              v:postal-code "28660" ;
+              v:country-name "Spain"   
+            ] ;
+          v:tel
+            [ a v:Voice, v:Work  ;
+              rdf:value "+34 913363672"
+         	] ; 
+          v:tel
+            [ a v:Fax, v:Work ;
+              rdf:value "+34 913524819"
+            ] ; 
+          v:email <mailto:asun@fi.upm.es> 
+          ] .
+          
+ oeg:Office5001 a org:Site;
+  org:siteAddress [
+    a v:VCard ;
+      v:fn "Ontology Engineering Group" ;
+        v:org
+          [  
+             v:organisation-name "Ontology Engineering Group" ;
+             v:organisation-unit "Office 5001 - Administration"
+          ] ;
+          v:adr
+            [ a v:Work ;
+              v:street-address "L5001, Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n" ;
+              v:locality "Boadilla del Monte" ;
+              v:postal-code "28660" ;
+              v:country-name "Spain"   
+            ] ;
+          v:tel
+            [ a v:Voice, v:Work  ;
+              rdf:value "+34 913367439"
+         	] ; 
+          v:tel
+            [ a v:Fax, v:Work ;
+              rdf:value "+34 913524819"
+            ] ; 
+          v:email <mailto:aibarrola@fi.upm.es> 
+          ] . 
+          
+ oeg:OfficeOfAsun a org:Site;
+  org:siteAddress [
+    a v:VCard ;
+      v:fn "Ontology Engineering Group" ;
+        v:org
+          [  
+             v:organisation-name "Ontology Engineering Group" ;
+             v:organisation-unit "Office 2209 - Office of Asunción Gómez Pérez"
+          ] ;
+          v:adr
+            [ a v:Work ;
+              v:street-address "Despacho 2209, Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n" ;
               v:locality "Boadilla del Monte" ;
               v:postal-code "28660" ;
               v:country-name "Spain"   
@@ -44,31 +129,66 @@ oeg:office a org:Site;
             [ a v:Fax, v:Work ;
               rdf:value "+34 913524819"
             ] ; 
-          v:email <asun@fi.upm.es> 
-          ] .
+          v:email <mailto:asun@fi.upm.es> 
+          ] . 
+          
+ oeg:OfficeOfOscar a org:Site;
+  org:siteAddress [
+    a v:VCard ;
+      v:fn "Ontology Engineering Group" ;
+        v:org
+          [  
+             v:organisation-name "Ontology Engineering Group" ;
+             v:organisation-unit "Office 2107 - Office of Asunción Gómez Pérez"
+          ] ;
+          v:adr
+            [ a v:Work ;
+              v:street-address "Despacho 2107, Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n" ;
+              v:locality "Boadilla del Monte" ;
+              v:postal-code "28660" ;
+              v:country-name "Spain"   
+            ] ;
+          v:tel
+            [ a v:Voice, v:Work  ;
+              rdf:value "+34 913366605"
+         	] ; 
+          v:tel
+            [ a v:Fax, v:Work ;
+              rdf:value "+34 913524819"
+            ] ; 
+          v:email <mailto:ocorcho@fi.upm.es> 
+          ] .                                       
 
-oeg:asun a org:Membership;
+oeg:asunAtOEG a org:Membership;
      org:member <http://semanticweb.org/id/Asuncion_Gomez-Perez> ;
      org:organization oeg:this;
      org:role oeg:director;
-     org:role oeg:fullProfessor .
+     org:role oeg:FullProfessor .
+     
+<http://semanticweb.org/id/Asuncion_Gomez-Perez> org:basedAt oeg:OfficeOfAsun .    
 
-oeg:ocorcho a org:Membership;
+oeg:ocorchoAtOEG a org:Membership;
      org:member <http://semanticweb.org/id/Oscar_Corcho>;
      org:organization oeg:this;
-     org:role oeg:associateProfessor .
+     org:role oeg:AssociateProfessor .
+     
+<http://semanticweb.org/id/Oscar_Corcho> org:basedAt oeg:OfficeOfOscar .       
 
-oeg:rgarcia a org:Membership;
+oeg:rgarciaAtOEG a org:Membership;
      org:member <http://delicias.dia.fi.upm.es/~rgarcia/#me>;
      org:organization oeg:this;
-     org:role oeg:postDoc .
+     org:role oeg:PostDoc .
+
+<http://delicias.dia.fi.upm.es/~rgarcia/#me> org:basedAt oeg:Office3204 .      
 	
-oeg:dgarijo a org:Membership;
+oeg:dgarijoAtOEG a org:Membership;
       org:member <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
       org:organization oeg:this;
-      org:role oeg:phdStudent .
+      org:role oeg:PhdStudent .
+      
+<http://delicias.dia.fi.upm.es/members/DGarijo/#me> org:basedAt oeg:Office3204 . 
 
-oeg:director a org:Role;
+oeg:Director a org:Role;
     skos:prefLabel "Director";
     org:roleProperty oeg:directorOf .
 
@@ -76,19 +196,19 @@ oeg:directorOf a owl:ObjectProperty, rdf:Property;
     skos:prefLabel "Director";
     rdfs:subPropertyOf org:memberOf. 
 
-oeg:fullProfessor a org:Role;
+oeg:FullProfessor a org:Role;
     skos:prefLabel "Full Professor" .
 
-oeg:associateProfessor a org:Role;
+oeg:AssociateProfessor a org:Role;
 	skos:prefLabel "Associate Professor" .
 
-oeg:phdStudent a org:Role;
+oeg:PhdStudent a org:Role;
     skos:prefLabel "PhD student" .
 
-oeg:postDoc a org:Role;
+oeg:PostDoc a org:Role;
     skos:prefLabel "Post-Doc" .
 
-oeg:softwareEngineer a org:Role;
+oeg:SoftwareEngineer a org:Role;
     skos:prefLabel "Software Engineer" .
 
 

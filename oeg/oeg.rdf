@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:oeg="http://www.oeg-upm.net/#"
+	xmlns:v="http://www.w3.org/2006/vcard/ns#"
+	xmlns:schema="http://schema.org/"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:cc="http://creativecommons.org/ns#&quot;">
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#this">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	<rdf:type rdf:resource="http://schema.org/EducationalOrganization"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	<skos:prefLabel>Ontology Engineering Group</skos:prefLabel>
+	<org:subOrganizationOf rdf:resource="http://dbpedia.org/resource/Technical_University_of_Madrid"/>
+	<org:purpose rdf:resource="http://dbpedia.org/resource/Research"/>
+	<foaf:homepage rdf:resource="http://www.oeg-upm.net/"/>
+	<org:hasPrimarySite rdf:resource="http://www.oeg-upm.net/#Office3204"/>
+	<org:hasSite rdf:resource="http://www.oeg-upm.net/#Office3205"/>
+	<org:hasSite rdf:resource="http://www.oeg-upm.net/#Office5001"/>
+	<org:hasSite rdf:resource="http://www.oeg-upm.net/#OfficeOfAsun"/>
+	<org:hasSite rdf:resource="http://www.oeg-upm.net/#OfficeOfOscar"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#Office3204">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Site"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx1">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+	<v:fn>Ontology Engineering Group</v:fn>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx2">
+	<v:organisation-name>Ontology Engineering Group</v:organisation-name>
+	<v:organisation-unit>Office 3204</v:organisation-unit>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx1">
+	<v:org rdf:nodeID="node17jn8oqlfx2"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx3">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<v:street-address>L3204, Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n</v:street-address>
+	<v:locality>Boadilla del Monte</v:locality>
+	<v:postal-code>28660</v:postal-code>
+	<v:country-name>Spain</v:country-name>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx1">
+	<v:adr rdf:nodeID="node17jn8oqlfx3"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx4">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:value>+34 913363670</rdf:value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx1">
+	<v:tel rdf:nodeID="node17jn8oqlfx4"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx5">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Fax"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:value>+34 913524819</rdf:value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx1">
+	<v:tel rdf:nodeID="node17jn8oqlfx5"/>
+	<v:email rdf:resource="mailto:katy@delicias.dia.fi.upm.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#Office3204">
+	<org:siteAddress rdf:nodeID="node17jn8oqlfx1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#Office3205">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Site"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx6">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+	<v:fn>Ontology Engineering Group</v:fn>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx7">
+	<v:organisation-name>Ontology Engineering Group</v:organisation-name>
+	<v:organisation-unit>Office 3205</v:organisation-unit>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx6">
+	<v:org rdf:nodeID="node17jn8oqlfx7"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx8">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<v:street-address>L3205, Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n</v:street-address>
+	<v:locality>Boadilla del Monte</v:locality>
+	<v:postal-code>28660</v:postal-code>
+	<v:country-name>Spain</v:country-name>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx6">
+	<v:adr rdf:nodeID="node17jn8oqlfx8"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx9">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:value>+34 913363672</rdf:value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx6">
+	<v:tel rdf:nodeID="node17jn8oqlfx9"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx10">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Fax"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:value>+34 913524819</rdf:value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx6">
+	<v:tel rdf:nodeID="node17jn8oqlfx10"/>
+	<v:email rdf:resource="mailto:asun@fi.upm.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#Office3205">
+	<org:siteAddress rdf:nodeID="node17jn8oqlfx6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#Office5001">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Site"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx11">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+	<v:fn>Ontology Engineering Group</v:fn>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx12">
+	<v:organisation-name>Ontology Engineering Group</v:organisation-name>
+	<v:organisation-unit>Office 5001 - Administration</v:organisation-unit>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx11">
+	<v:org rdf:nodeID="node17jn8oqlfx12"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx13">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<v:street-address>L5001, Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n</v:street-address>
+	<v:locality>Boadilla del Monte</v:locality>
+	<v:postal-code>28660</v:postal-code>
+	<v:country-name>Spain</v:country-name>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx11">
+	<v:adr rdf:nodeID="node17jn8oqlfx13"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx14">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:value>+34 913367439</rdf:value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx11">
+	<v:tel rdf:nodeID="node17jn8oqlfx14"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx15">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Fax"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:value>+34 913524819</rdf:value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx11">
+	<v:tel rdf:nodeID="node17jn8oqlfx15"/>
+	<v:email rdf:resource="mailto:aibarrola@fi.upm.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#Office5001">
+	<org:siteAddress rdf:nodeID="node17jn8oqlfx11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#OfficeOfAsun">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Site"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx16">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+	<v:fn>Ontology Engineering Group</v:fn>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx17">
+	<v:organisation-name>Ontology Engineering Group</v:organisation-name>
+	<v:organisation-unit>Office 2209 - Office of Asunción Gómez Pérez</v:organisation-unit>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx16">
+	<v:org rdf:nodeID="node17jn8oqlfx17"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx18">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<v:street-address>Despacho 2209, Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n</v:street-address>
+	<v:locality>Boadilla del Monte</v:locality>
+	<v:postal-code>28660</v:postal-code>
+	<v:country-name>Spain</v:country-name>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx16">
+	<v:adr rdf:nodeID="node17jn8oqlfx18"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx19">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:value>+34 913367417</rdf:value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx16">
+	<v:tel rdf:nodeID="node17jn8oqlfx19"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx20">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Fax"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:value>+34 913524819</rdf:value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx16">
+	<v:tel rdf:nodeID="node17jn8oqlfx20"/>
+	<v:email rdf:resource="mailto:asun@fi.upm.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#OfficeOfAsun">
+	<org:siteAddress rdf:nodeID="node17jn8oqlfx16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#OfficeOfOscar">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Site"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx21">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#VCard"/>
+	<v:fn>Ontology Engineering Group</v:fn>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx22">
+	<v:organisation-name>Ontology Engineering Group</v:organisation-name>
+	<v:organisation-unit>Office 2107 - Office of Asunción Gómez Pérez</v:organisation-unit>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx21">
+	<v:org rdf:nodeID="node17jn8oqlfx22"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx23">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<v:street-address>Despacho 2107, Facultad de Informática, Universidad Politécnica de Madrid, Avda. Montepríncipe, s/n</v:street-address>
+	<v:locality>Boadilla del Monte</v:locality>
+	<v:postal-code>28660</v:postal-code>
+	<v:country-name>Spain</v:country-name>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx21">
+	<v:adr rdf:nodeID="node17jn8oqlfx23"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx24">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Voice"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:value>+34 913366605</rdf:value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx21">
+	<v:tel rdf:nodeID="node17jn8oqlfx24"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx25">
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Fax"/>
+	<rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Work"/>
+	<rdf:value>+34 913524819</rdf:value>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="node17jn8oqlfx21">
+	<v:tel rdf:nodeID="node17jn8oqlfx25"/>
+	<v:email rdf:resource="mailto:ocorcho@fi.upm.es"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#OfficeOfOscar">
+	<org:siteAddress rdf:nodeID="node17jn8oqlfx21"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#asunAtOEG">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+	<org:member rdf:resource="http://semanticweb.org/id/Asuncion_Gomez-Perez"/>
+	<org:organization rdf:resource="http://www.oeg-upm.net/#this"/>
+	<org:role rdf:resource="http://www.oeg-upm.net/#director"/>
+	<org:role rdf:resource="http://www.oeg-upm.net/#FullProfessor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticweb.org/id/Asuncion_Gomez-Perez">
+	<org:basedAt rdf:resource="http://www.oeg-upm.net/#OfficeOfAsun"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#ocorchoAtOEG">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+	<org:member rdf:resource="http://semanticweb.org/id/Oscar_Corcho"/>
+	<org:organization rdf:resource="http://www.oeg-upm.net/#this"/>
+	<org:role rdf:resource="http://www.oeg-upm.net/#AssociateProfessor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticweb.org/id/Oscar_Corcho">
+	<org:basedAt rdf:resource="http://www.oeg-upm.net/#OfficeOfOscar"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#rgarciaAtOEG">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+	<org:member rdf:resource="http://delicias.dia.fi.upm.es/~rgarcia/#me"/>
+	<org:organization rdf:resource="http://www.oeg-upm.net/#this"/>
+	<org:role rdf:resource="http://www.oeg-upm.net/#PostDoc"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://delicias.dia.fi.upm.es/~rgarcia/#me">
+	<org:basedAt rdf:resource="http://www.oeg-upm.net/#Office3204"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#dgarijoAtOEG">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Membership"/>
+	<org:member rdf:resource="http://delicias.dia.fi.upm.es/members/DGarijo/#me"/>
+	<org:organization rdf:resource="http://www.oeg-upm.net/#this"/>
+	<org:role rdf:resource="http://www.oeg-upm.net/#PhdStudent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://delicias.dia.fi.upm.es/members/DGarijo/#me">
+	<org:basedAt rdf:resource="http://www.oeg-upm.net/#Office3204"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#Director">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Role"/>
+	<skos:prefLabel>Director</skos:prefLabel>
+	<org:roleProperty rdf:resource="http://www.oeg-upm.net/#directorOf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#directorOf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<skos:prefLabel>Director</skos:prefLabel>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/org#memberOf"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#FullProfessor">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Role"/>
+	<skos:prefLabel>Full Professor</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#AssociateProfessor">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Role"/>
+	<skos:prefLabel>Associate Professor</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#PhdStudent">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Role"/>
+	<skos:prefLabel>PhD student</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#PostDoc">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Role"/>
+	<skos:prefLabel>Post-Doc</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.oeg-upm.net/#SoftwareEngineer">
+	<rdf:type rdf:resource="http://www.w3.org/ns/org#Role"/>
+	<skos:prefLabel>Software Engineer</skos:prefLabel>
+</rdf:Description>
+
+</rdf:RDF>
