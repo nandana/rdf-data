@@ -1,0 +1,44 @@
++-------------------------+-----------+------------------+-------------------------------------------------+-----------------------------------------------------------------------------------+
+| id                      | /~{id}[1] | /members/{id}[2] | Found                                           | http://www.oeg-upm.net/ page URL                                                  |
++-------------------------+-----------+------------------+-------------------------------------------------+-----------------------------------------------------------------------------------+
+| asun                    |   False   |      True        | http://delicias.dia.fi.upm.es/members/asun/     | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/194-asun                |
+| lupe                    |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/53-lupe                 |
+| mperez                  |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/43-mperez               |
+| mcsuarez                |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/33-mcsuarez             |
+| jgracia                 |   True    |      False       | http://delicias.dia.fi.upm.es/~jgracia/         | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/35-jgracia                   |
+| rgarcia                 |   True    |      False       | http://delicias.dia.fi.upm.es/~rgarcia/         | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/12-rgarcia                   |
+| lmvilches               |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/49-lmvilches                 |
+| rgonzalez               |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/164-rgonzalez                |
+| mesteban                |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/27-mesteban          |
+| elozano                 |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/36-elozano           |
+| jpcalbimonte            |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/31-jpcalbimonte      |
+| bmemishi                |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/149-bmemishifiupmes  |
+| isantana                |   False   |      True        | http://delicias.dia.fi.upm.es/members/isantana/ | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/37-isantana          |
+| fradulovic              |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/132-fradulovic       |
+| kasooja                 |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/masterstudents/236-kasooja       |
+| afcarrera               |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/universitystaff/289-afernandez   |
+| ralcazar                |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/universitystaff/96-ralcazar      |
+| aibarrola               |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/administrativestaff/95-aibarrola |
+| inmaculada.alvarezdemon |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/10-inma                 |
+| ocorcho                 |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/11-ocorcho              |
+| rplaza                  |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/210-rplaza              |
+| emontiel                |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/52-emontiel             |
+| vrodriguez              |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/284-vrodriguez               |
+| ralbertoni              |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/238-ralbertoni               |
+| hgarcia                 |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/38-hgarcia                   |
+| jarg                    |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/54-jarg              |
+| fmartinrecuerda         |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/48-fmartinrecuerda   |
+| fpriyatna               |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/50-fpriyatna         |
+| jmora                   |   True    |      False       | http://delicias.dia.fi.upm.es/~jmora/           | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/29-jmora             |
+| dgarijo                 |   False   |      True        | http://delicias.dia.fi.upm.es/members/DGarijo/  | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/28-dgarijo           |
+| mpoveda                 |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/14-mpoveda           |
+| dvila                   |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/212-daniel-vila-suero|
+| nmihindu                |   False   |      False       |                                                 |                                                                                   |
+| nandana                 |   False   |      True        | http://delicias.dia.fi.upm.es/members/nandana/  | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/universitystaff/290-nandana      |
+| magarcia                |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/universitystaff/15-magarcia      |
+| fsiles                  |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/universitystaff/286-fsiles       |
+| katy                    |   False   |      False       |                                                 | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/administrativestaff/135-katy     |
++-------------------------+-----------+------------------+-------------------------------------------------+-----------------------------------------------------------------------------------+
+
+[1] - http://delicias.dia.fi.upm.es/~{id}
+[2] - http://delicias.dia.fi.upm.es//members/{id}
