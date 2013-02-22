@@ -179,7 +179,14 @@ oeg:rgarciaAtOEG a org:Membership;
      org:organization oeg:this;
      org:role oeg:PostDoc .
 
-<http://delicias.dia.fi.upm.es/~rgarcia/#me> org:basedAt oeg:Office3204 .      
+<http://delicias.dia.fi.upm.es/~rgarcia/#me> org:basedAt oeg:Office3204 .
+
+oeg:jgraciaAtOEG a org:Membership;
+     org:member <http://delicias.dia.fi.upm.es/~jgracia/#me>;
+     org:organization oeg:this;
+     org:role oeg:PostDoc .
+
+<http://delicias.dia.fi.upm.es/~jgracia/#me> org:basedAt oeg:Office3205 .
 	
 oeg:dgarijoAtOEG a org:Membership;
       org:member <http://delicias.dia.fi.upm.es/members/DGarijo/#me>;
@@ -187,6 +194,21 @@ oeg:dgarijoAtOEG a org:Membership;
       org:role oeg:PhdStudent .
       
 <http://delicias.dia.fi.upm.es/members/DGarijo/#me> org:basedAt oeg:Office3204 . 
+
+oeg:isantanaAtOEG a org:Membership;
+      org:member <http://delicias.dia.fi.upm.es/members/isantana/#me>;
+      org:organization oeg:this;
+      org:role oeg:PhdStudent .
+      
+<http://delicias.dia.fi.upm.es/members/isantana/#me> org:basedAt oeg:Office3204 .
+
+oeg:nandanaAtOEG a org:Membership;
+      org:member <http://delicias.dia.fi.upm.es/members/nandana/#me>;
+      org:organization oeg:this;
+      org:role oeg:SoftwareEngineer ;
+      org:role oeg:PhdStudent .
+      
+<http://delicias.dia.fi.upm.es/members/nandana/#me> org:basedAt oeg:Office3204 .
 
 oeg:Director a org:Role;
     skos:prefLabel "Director";
@@ -210,7 +232,3 @@ oeg:PostDoc a org:Role;
 
 oeg:SoftwareEngineer a org:Role;
     skos:prefLabel "Software Engineer" .
-
-
-
-
