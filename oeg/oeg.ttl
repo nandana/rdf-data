@@ -112,7 +112,7 @@ oeg:Office3205 a org:Site;
         v:org
           [  
              v:organisation-name "Ontology Engineering Group" ;
-             v:organisation-unit "Office 2209 - Office of Asunción Gómez Pérez"
+             v:organisation-unit "Office 2209 - Office of Prof. Asunción Gómez Pérez"
           ] ;
           v:adr
             [ a v:Work ;
@@ -139,7 +139,7 @@ oeg:Office3205 a org:Site;
         v:org
           [  
              v:organisation-name "Ontology Engineering Group" ;
-             v:organisation-unit "Office 2107 - Office of Asunción Gómez Pérez"
+             v:organisation-unit "Office 2107 - Office of Dr. Oscar Corcho"
           ] ;
           v:adr
             [ a v:Work ;
