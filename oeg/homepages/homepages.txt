@@ -3,83 +3,83 @@
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
 | id              | /~{id}        | /members/{id} | Homepage                                                                          |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| afcarrera       |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/universitystaff/289-afernandez   |
+| afcarrera       |               |               | www.oeg-upm.net/index.php/en/universitystaff/289-afernandez                       |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| aibarrola       |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/administrativestaff/95-aibarrola |
+| aibarrola       |               |               | www.oeg-upm.net/index.php/en/administrativestaff/95-aibarrola                     |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
 | asun            |               |     Found     | http://delicias.dia.fi.upm.es/members/asun/                                       |
-|                 |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/194-asun                |
+|                 |               |               | www.oeg-upm.net/index.php/en/teachers/194-asun                                    |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| bmemishi        |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/149-bmemishifiupmes  |
+| bmemishi        |               |               | www.oeg-upm.net/index.php/en/phdstudents/149-bmemishifiupmes                      |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
 | dgarijo         |               |     Found     | http://delicias.dia.fi.upm.es/members/DGarijo/                                    |
-|                 |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/28-dgarijo           |
+|                 |               |               | www.oeg-upm.net/index.php/en/phdstudents/28-dgarijo                               |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| dvila           |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/212-daniel-vila-suero|
+| dvila           |               |               | www.oeg-upm.net/index.php/en/phdstudents/212-daniel-vila-suero                    |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| elozano         |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/36-elozano           |
+| elozano         |               |               | www.oeg-upm.net/index.php/en/phdstudents/36-elozano                               |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| emontiel        |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/52-emontiel             |
+| emontiel        |               |               | www.oeg-upm.net/index.php/en/teachers/52-emontiel                                 |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| fmartinrecuerda |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/48-fmartinrecuerda   |
+| fmartinrecuerda |               |               | www.oeg-upm.net/index.php/en/phdstudents/48-fmartinrecuerda                       |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| fpriyatna       |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/50-fpriyatna         |
+| fpriyatna       |               |               | www.oeg-upm.net/index.php/en/phdstudents/50-fpriyatna                             |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| fradulovic      |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/132-fradulovic       |
+| fradulovic      |               |               | www.oeg-upm.net/index.php/en/phdstudents/132-fradulovic                           |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| fsiles          |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/universitystaff/286-fsiles       |
+| fsiles          |               |               | www.oeg-upm.net/index.php/en/universitystaff/286-fsiles                           |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| hgarcia         |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/38-hgarcia                   |
+| hgarcia         |               |               | www.oeg-upm.net/index.php/en/phd/38-hgarcia                                       |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
 | isantana        |               |     Found     | http://delicias.dia.fi.upm.es/members/isantana/                                   |
-|                 |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/37-isantana          |
+|                 |               |               | www.oeg-upm.net/index.php/en/phdstudents/37-isantana                              |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| jarg            |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/54-jarg              |
+| jarg            |               |               | www.oeg-upm.net/index.php/en/phdstudents/54-jarg                                  |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
 | jgracia         |     Found     |               | http://delicias.dia.fi.upm.es/~jgracia/                                           |
-|                 |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/35-jgracia                   |
+|                 |               |               | www.oeg-upm.net/index.php/en/phd/35-jgracia                                       |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
 | jmora           |     Found     |               | http://delicias.dia.fi.upm.es/~jmora/                                             |
-|                 |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/29-jmora             |
+|                 |               |               | www.oeg-upm.net/index.php/en/phdstudents/29-jmora                                 |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| jpcalbimonte    |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/31-jpcalbimonte      |
+| jpcalbimonte    |               |               | www.oeg-upm.net/index.php/en/phdstudents/31-jpcalbimonte                          |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| kasooja         |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/masterstudents/236-kasooja       |
+| kasooja         |               |               | www.oeg-upm.net/index.php/en/masterstudents/236-kasooja                           |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| katy            |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/administrativestaff/135-katy     |
+| katy            |               |               | www.oeg-upm.net/index.php/en/administrativestaff/135-katy                         |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| lmvilches       |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/49-lmvilches                 |
+| lmvilches       |               |               | www.oeg-upm.net/index.php/en/phd/49-lmvilches                                     |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| lupe            |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/53-lupe                 |
+| lupe            |               |               | www.oeg-upm.net/index.php/en/teachers/53-lupe                                     |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| magarcia        |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/universitystaff/15-magarcia      |
+| magarcia        |               |               | www.oeg-upm.net/index.php/en/universitystaff/15-magarcia                          |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| mcsuarez        |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/33-mcsuarez             |
+| mcsuarez        |               |               | www.oeg-upm.net/index.php/en/teachers/33-mcsuarez                                 |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| mesteban        |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/27-mesteban          |
+| mesteban        |               |               | www.oeg-upm.net/index.php/en/phdstudents/27-mesteban                              |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| mperez          |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/43-mperez               |
+| mperez          |               |               | www.oeg-upm.net/index.php/en/teachers/43-mperez                                   |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| mpoveda         |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/14-mpoveda           |
+| mpoveda         |               |               | www.oeg-upm.net/index.php/en/phdstudents/14-mpoveda                               |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
 | nandana         |               |     Found     | http://delicias.dia.fi.upm.es/members/nandana/                                    |
-|                 |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/universitystaff/290-nandana      |
+|                 |               |               | www.oeg-upm.net/index.php/en/universitystaff/290-nandana                          |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
 | nmihindu        |               |               |                                                                                   |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| ocorcho         |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/11-ocorcho              |
+| ocorcho         |               |               | www.oeg-upm.net/index.php/en/teachers/11-ocorcho                                  |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| ralbertoni      |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/238-ralbertoni               |
+| ralbertoni      |               |               | www.oeg-upm.net/index.php/en/phd/238-ralbertoni                                   |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| ralcazar        |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/universitystaff/96-ralcazar      |
+| ralcazar        |               |               | www.oeg-upm.net/index.php/en/universitystaff/96-ralcazar                          |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
 | rgarcia         |     Found     |               | http://delicias.dia.fi.upm.es/~rgarcia/                                           |
-|                 |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/12-rgarcia                   |
+|                 |               |               | www.oeg-upm.net/index.php/en/phd/12-rgarcia                                       |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| rgonzalez       |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/164-rgonzalez                |
+| rgonzalez       |               |               | www.oeg-upm.net/index.php/en/phd/164-rgonzalez                                    |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| rplaza          |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/210-rplaza              |
+| rplaza          |               |               | www.oeg-upm.net/index.php/en/teachers/210-rplaza                                  |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
-| vrodriguez      |               |               | http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phd/284-vrodriguez               |
+| vrodriguez      |               |               | www.oeg-upm.net/index.php/en/phd/284-vrodriguez                                   |
 +-----------------+---------------+---------------+-----------------------------------------------------------------------------------+
 
